@@ -6,7 +6,7 @@ body
 }
 [class~=day-box]
 {
-   border:5px solid black;
+   border:5px solid white;
    padding: 20px;
    border-radius: 10px;
    color: white;
