@@ -1,1 +1,14 @@
-
+body
+{
+   background: url('https://wallpapercave.com/wp/wp1860529.jpg');
+   height: 100%;
+   width: 100%;
+  
+}
+."day-box PREP" , ."day-box CURRENT" , ."day-box COMPLETED"
+{
+   border:5px solid black;
+   padding: 20px;
+   border-radius: 10px;
+   color: white;
+}
