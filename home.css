@@ -1,6 +1,8 @@
 body
 {
    background: url('https://wallpapercave.com/wp/wp1860529.jpg');
+    position: sticky;
+    top: 0;
 }
 div
 {
