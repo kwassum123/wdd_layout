@@ -1,0 +1,79 @@
+<HTML>
+  <head><title>
+
+    SeatingChart for Day7
+    
+    </title>
+
+<link rel="stylesheet" type="text/css" href="/css/default.css">
+    
+<link rel="stylesheet" type="text/css" href="/css/seating.css">
+
+  </head>
+  <body>
+    <div class="header">
+      
+      <div class="person_info">
+  <img src="/img/students/student11.png"  class="person_image" />
+  <audio id="nameSound11">
+    <source src="/names/student11.png" type="audio/ogg">
+  </audio>
+  <div class="sound"
+    onclick='document.getElementById("nameSound11").play()''
+    >
+  </div>
+
+  <span class="username">
+    Kenton Wassum
+  </span>
+  
+</div>
+      
+        <div class="nav">
+        <a  href="\logout">logout</a>
+        <a href="\updateAccount">myAccount</a>
+        <a href="\home">Home</a>
+        <a href="\classMates">ClassMates</a>
+        <a href="\seating">Seating</a>
+        
+        
+        <a href="\grades">Grades</a>    
+            
+      </div>
+       
+    </div>
+    <div class="special" id="special1"></div>
+    <div class="special" id="special2"></div>
+    <div class="special" id="special3"></div>
+<svg>
+</svg>
+<div class="absences hidden" position="absolute" x=200 y=15>
+<form action="markAbsences.py" method="GET">
+Absences <span id="absent_student"></span>
+    <div id="absent_date"></div>
+    <input type="hidden" name="student" value="">
+    <input type="hidden" name="day" value="today">
+    Morning:
+    <input type="checkbox" name="MornPre">Pre
+     <input type="checkbox" name="MornPost">Post
+    <br>
+    Afternoon:
+     <input type="checkbox" name="NoonPre">Pre
+     <input type="checkbox" name="NoonPost">Post
+    <input type="submit" name="Report">
+</form>
+    </div>
+<script src="/js/d3_legacy.js" charset="UTF-8" ></script>
+<script src="/js/seating.js"></script>
+<script>
+    //seatViz.runOnData("vizCourseData/seat1.csv",seatViz.displayFunction);
+
+    
+        seatViz.runOnData("/seatingData/7",
+          [seatViz.drawSeatImages]);
+      
+
+    </script>
+
+  </body>
+</HTML>
