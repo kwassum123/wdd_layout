@@ -1,8 +1,8 @@
 body
 {
    background: url('https://wallpapercave.com/wp/wp1860529.jpg');
-   height: 100%;
-   width: 100%;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .person_image
