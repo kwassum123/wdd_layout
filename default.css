@@ -12,6 +12,10 @@ html
    float: right;
    height: 200px;
    width:150px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
 }
 
 [class~=day-box]
