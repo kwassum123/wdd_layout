@@ -4,6 +4,14 @@ body
    height: 100%;
    width: 100%;
 }
+
+.person_image
+{
+   float: left;
+   height: 200px;
+   width:150px;
+}
+
 [class~=day-box]
 {
    border:5px solid white;
