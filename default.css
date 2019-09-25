@@ -23,26 +23,26 @@ html
 {
     background-color: snow;
   opacity: 0.5;
-  filter: Alpha(opacity=50); /* IE8 and earlier */
+  filter: Alpha(opacity=50);
 }
 
 [class~=day-box]
 {
-   border:5px solid white;
+   border:5px solid DeepSkyBlue;
    padding: 20px;
    border-radius: 10px;
-   color: white;
+   color: OrangeRed;
    font-family: 'Iceland', cursive;
    width: 480px;
    margin: 10px;
 }
 
-/* unvisited link */
+
 a:link {
   color: white;
 }
 
-/* visited link */
+
 a:visited {
   color: grey;
 }   
