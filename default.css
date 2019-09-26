@@ -46,14 +46,12 @@ html
    width: 400px;
    margin: 10px;
    float: left;
-   display: block;
    background-color:  #282828;
 }
 
 form>*
 {
-   float: left;
-   display: block;
+ text-align: left;
 }
 
 td
