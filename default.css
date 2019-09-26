@@ -94,7 +94,7 @@ a:hover
    font-weight: bold;
 }
 
-.prompt
+.prompt, .assignment_prompt, .question>p
 {
    border:5px solid DeepSkyBlue;
    padding: 20px;
