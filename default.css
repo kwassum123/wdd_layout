@@ -54,12 +54,12 @@ html
    color: orangered;
 }
 
-a:link {
+.asignment_link, .lab_box:link {
   color: gold;
 }
 
 
-a:visited {
+.asignment_link, .lab_box:visited {
   color: royalblue;
 }   
   
