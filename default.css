@@ -51,17 +51,25 @@ html
    display: block;
 }
 
-*, tbody
+td
+{
+   border: 2px solid DeepSkyBlue;
+   background-color: #696969;
+}
+   
+   
+
+*
 {
    color: OrangeRed;
 }
 
-.asignment_link, .lab_box:link 
+a:link 
 {
   color: Gold;
 }
 
-.asignment_link, .lab_box:visited 
+a:visited 
 {
   color: RoyalBlue;
 }   
