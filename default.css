@@ -50,6 +50,12 @@ html
    background-color:  #282828;
 }
 
+form>*
+{
+   float: left;
+   display: block;
+}
+
 td
 {
    border: 2px solid DeepSkyBlue;
