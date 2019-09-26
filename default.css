@@ -46,20 +46,23 @@ html
    color: OrangeRed;
    font-family: 'Iceland', cursive;
    width: 480px;
-   height: 960px;
    margin: 10px;
    float: left;
+   text-allign: left;
+}
+
 *, tbody
 {
-   color: orangered;
+   color: OrangeRed;
 }
 
-.asignment_link, .lab_box:link {
-  color: gold;
+.asignment_link, .lab_box:link 
+{
+  color: Gold;
 }
 
-
-.asignment_link, .lab_box:visited {
-  color: royalblue;
+.asignment_link, .lab_box:visited 
+{
+  color: RoyalBlue;
 }   
   
