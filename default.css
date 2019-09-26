@@ -22,8 +22,8 @@ html
 .header
 {
     background-color: snow;
-  opacity: 0.5;
-  filter: Alpha(opacity=50);
+  opacity: 0.75;
+  filter: Alpha(opacity=75);
 }
 
 [class~=day-box]
@@ -35,6 +35,9 @@ html
    font-family: 'Iceland', cursive;
    width: 480px;
    margin: 10px;
+   background-color: snow;
+   opacity: 0.75;
+   filter: Alpha(opacity=75);
 }
 
 .account_form
@@ -47,6 +50,9 @@ html
    width: 480px;
    margin: 10px;
    float: left;
+   background-color: snow;
+   opacity: 0.75;
+   filter: Alpha(opacity=75);
 
 *
 {
