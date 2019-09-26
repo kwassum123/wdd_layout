@@ -35,9 +35,6 @@ html
    font-family: 'Iceland', cursive;
    width: 480px;
    margin: 10px;
-   background-color: snow;
-   opacity: 0.25;
-   filter: Alpha(opacity=25);
 }
 
 .account_form
@@ -50,10 +47,6 @@ html
    width: 480px;
    margin: 10px;
    float: left;
-   background-color: snow;
-   opacity: 0.25;
-   filter: Alpha(opacity=25);
-
 *
 {
    color: orangered;
