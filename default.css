@@ -30,8 +30,6 @@ html
    border:5px solid DeepSkyBlue;
    padding: 20px;
    border-radius: 10px;
-   color: OrangeRed;
-   font-family: 'Iceland', cursive;
    width: 480px;
    margin: 10px;
 }
@@ -44,8 +42,6 @@ html
    border:5px solid DeepSkyBlue;
    padding: 20px;
    border-radius: 10px;
-   color: OrangeRed;
-   font-family: 'Iceland', cursive;
    width: 480px;
    margin: 10px;
    float: left;
@@ -69,6 +65,7 @@ td
 a:link 
 {
   color: Gold;
+  
 }
 
 a:visited 
