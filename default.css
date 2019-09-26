@@ -35,6 +35,14 @@ html
    margin: 10px;
 }
 
+[class~=day-box] > a
+{
+   border:5px solid DeepSkyBlue;
+   padding: 5px;
+   border-radius: 5px;
+}
+   
+
 .account_form
 {
    border:5px solid DeepSkyBlue;
