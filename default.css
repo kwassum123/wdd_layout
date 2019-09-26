@@ -67,11 +67,14 @@ td
 a:link 
 {
   color: Gold;
-  
+  text-decoration: none;
 }
 
 a:visited 
 {
-  color: RoyalBlue;
-}   
+ color: RoyalBlue;
+ text-decoration: none;
+}
+
+
   
