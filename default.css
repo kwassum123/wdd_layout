@@ -35,10 +35,10 @@ html
    margin: 10px;
 }
 
-[class~=day-box] > a
+ a
 {
-   border:5px solid DeepSkyBlue;
-   padding: 5px;
+   border:2px solid DeepSkyBlue;
+   padding: 2px;
    border-radius: 5px;
 }
    
