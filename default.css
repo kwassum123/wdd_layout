@@ -22,8 +22,6 @@ html
 .header
 {
     background-color: snow;
-  opacity: 0.25;
-  filter: Alpha(opacity=25);
 }
 
 [class~=day-box]
