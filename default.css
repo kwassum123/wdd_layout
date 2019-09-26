@@ -54,7 +54,7 @@ html
 td
 {
    border: 2px solid DeepSkyBlue;
-   background-color: #696969;
+   background-color: #282828;
 }
    
    
@@ -62,6 +62,7 @@ td
 *
 {
    color: OrangeRed;
+   font-family: "Courier New", Courier, monospace;
 }
 
 a:link 
