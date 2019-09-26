@@ -68,13 +68,23 @@ a:link
 {
   color: Gold;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:visited 
 {
  color: RoyalBlue;
  text-decoration: none;
+ font-weight: bold;
 }
+
+a:hover
+{
+   text-decoration: underline;
+   font-weight: bold;
+}
+   
+
 
 
   
