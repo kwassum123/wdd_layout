@@ -54,7 +54,7 @@ iframe
    background-color:  #282828;
 }
 
-form
+form *
 {
  text-align: left;
  display: block;
