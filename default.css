@@ -39,7 +39,7 @@ iframe
 {
    height: 480px;
    width: 480px;
-   background-color: none;
+   background-color: white;
 }
    
 
@@ -58,7 +58,6 @@ form
 {
  text-align: left;
  display: block;
- margin: 10px;
 }
 
 td
