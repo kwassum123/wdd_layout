@@ -49,9 +49,10 @@ html
    background-color:  #282828;
 }
 
-form>*
+form *
 {
  text-align: left;
+ display: block
 }
 
 td
@@ -87,7 +88,16 @@ a:hover
    text-decoration: underline;
    font-weight: bold;
 }
-   
+
+.prompt
+{
+   border:5px solid DeepSkyBlue;
+   padding: 20px;
+   border-radius: 10px;
+   width: 480px;
+   margin: 10px;
+   background-color:  #282828;
+}
 
 
 
